@@ -1,0 +1,105 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "d7ed19b0-fc71-401a-bc69-6e1a3132c1f4": {
+        "id": "d7ed19b0-fc71-401a-bc69-6e1a3132c1f4",
+        "parent": null,
+        "name": "gcppython-sanity-0503.py",
+        "type": "PYTHON_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "gcppython-sanity-0503.py",
+        "cursor": {
+          "lineNumber": 3,
+          "column": 5
+        },
+        "config": {
+          "runtime": "python37",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "triggerType": 0,
+          "name": "gcppythonSanity0503"
+        },
+        "triggers": [
+          {
+            "resourceName": "http-trigger",
+            "config": {}
+          }
+        ],
+        "lastUpdated": 1620020996561
+      },
+      "5aa8d2bc-575b-479e-b9bb-31233797e4a6": {
+        "id": "5aa8d2bc-575b-479e-b9bb-31233797e4a6",
+        "parent": null,
+        "name": "index.js",
+        "type": "JS_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": false,
+        "filePath": "index.js"
+      },
+      "7b30e568-d050-4302-92f1-2ce5e3ade6f8": {
+        "id": "7b30e568-d050-4302-92f1-2ce5e3ade6f8",
+        "parent": null,
+        "name": "main.py",
+        "type": "PYTHON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": false,
+        "filePath": "main.py"
+      }
+    },
+    "openFiles": [
+      "d7ed19b0-fc71-401a-bc69-6e1a3132c1f4"
+    ],
+    "currentFileId": "d7ed19b0-fc71-401a-bc69-6e1a3132c1f4",
+    "resources": {
+      "http-trigger": {
+        "name": "http-trigger",
+        "type": "http-trigger",
+        "config": {}
+      }
+    },
+    "customTemplate": {
+      "syntax": "JSON",
+      "overrideDefault": false,
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "AWS_DEFAULT_REGION",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "sigmaVersion": "1.7.4",
+    "projectName": "gcppython-sanity-0503",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east1",
+    "platform": "GCP",
+    "language": "python",
+    "platformRegions": {
+      "AWS": "us-east-1"
+    },
+    "lastSave": 1620021158907
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "gcppython-sanity-0503",
+      "url": "https://github.com/HirudineeADRT/gcppython-sanity-0503"
+    }
+  }
+}
